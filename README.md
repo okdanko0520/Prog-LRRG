@@ -1,7 +1,7 @@
 ## CheXRel Global Report
 
 This repository implements a two-stage pipeline for chest X-ray **image–text alignment** and **report generation/conditioned decoding** over temporal (current vs. prior) image pairs.
-
+![image text]()
 The project is driven by `main.py` (PyTorch Lightning). The core models are implemented in `model/model_diff.py` as:
 - `Pretrain`: contrastive pretraining with multi-view/time-difference supervision
 - `Finetune`: conditional generation of reports using a GPT-style decoder with multimodal fusion
